@@ -95,6 +95,10 @@
 <hole x="77" y="3" drill="2.6"/>
 <circle x="77" y="3" radius="2.5" width="0" layer="41"/>
 <circle x="77" y="3" radius="2.5" width="0" layer="40"/>
+<text x="78" y="6" size="1.4" layer="22" font="vector" ratio="16" rot="MR90">Apollo cape_mains v0.3.1</text>
+<text x="1" y="8" size="1.4" layer="22" font="vector" ratio="16" rot="MR90">UNDA s.n.:</text>
+<rectangle x1="1" y1="19" x2="3" y2="31" layer="22"/>
+<text x="36" y="1" size="1.4" layer="22" font="vector" ratio="16" rot="MR0">Mfgr s.n.:</text>
 </plain>
 <libraries>
 <library name="parts-meanwell" urn="urn:adsk.eagle:library:7633079">
