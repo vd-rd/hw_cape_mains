@@ -71,6 +71,13 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
 </layers>
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:X9o_gaevR0mmTd5c682hOQ" pcbguid="09c3e8ed-c86e-44dc-a2e4-995f3919ef7c" lastpulledtime="" lastsyncedchangeguid="08498241-25eb-84ee-6c51-32de18bef326"/>
@@ -1795,6 +1802,77 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 </package3d>
 </packages3d>
 </library>
+<library name="parts-logo" urn="urn:adsk.eagle:library:8161933">
+<packages>
+<package name="UNDA_LOGO_2X" urn="urn:adsk.eagle:footprint:8161934/2" library_version="2">
+<description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
+<text x="-27.7" y="-8.9" size="3.5" layer="25" ratio="15" distance="125">t  e  c  h  n  o  l  o  g  i  e  s</text>
+<wire x1="-26.5" y1="2.5" x2="-21.5" y2="-2.5" width="1.5" layer="21" curve="90"/>
+<wire x1="-21.5" y1="-2.5" x2="-20.5" y2="-2.5" width="1.5" layer="21"/>
+<wire x1="-20.5" y1="-2.5" x2="-15.5" y2="2.5" width="1.5" layer="21" curve="90"/>
+<wire x1="-15.5" y1="2.5" x2="-15.5" y2="8.5" width="1.5" layer="21"/>
+<wire x1="-26.5" y1="2.5" x2="-26.5" y2="8.5" width="1.5" layer="21"/>
+<wire x1="-12.5" y1="-2.5" x2="-12.5" y2="3.5" width="1.5" layer="21"/>
+<wire x1="-12.5" y1="3.5" x2="-7.5" y2="8.5" width="1.5" layer="21" curve="-90"/>
+<wire x1="-7.5" y1="8.5" x2="-6.5" y2="8.5" width="1.5" layer="21"/>
+<wire x1="-6.5" y1="8.5" x2="-1.5" y2="3.5" width="1.5" layer="21" curve="-90"/>
+<wire x1="-1.5" y1="3.5" x2="-1.5" y2="-2.5" width="1.5" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="1.5" y2="8.5" width="1.5" layer="21"/>
+<wire x1="1.5" y1="8.5" x2="7.5" y2="8.5" width="1.5" layer="21"/>
+<wire x1="7.5" y1="8.5" x2="12.5" y2="3.5" width="1.5" layer="21" curve="-90"/>
+<wire x1="12.5" y1="3.5" x2="12.5" y2="2.5" width="1.5" layer="21"/>
+<wire x1="12.5" y1="2.5" x2="7.5" y2="-2.5" width="1.5" layer="21" curve="-90"/>
+<wire x1="7.5" y1="-2.5" x2="1.5" y2="-2.5" width="1.5" layer="21"/>
+<wire x1="26.5" y1="3.5" x2="21.5" y2="8.5" width="1.5" layer="21" curve="90"/>
+<wire x1="21.5" y1="8.5" x2="20.5" y2="8.5" width="1.5" layer="21"/>
+<wire x1="20.5" y1="8.5" x2="15.5" y2="3.5" width="1.5" layer="21" curve="90"/>
+<wire x1="15.5" y1="3.5" x2="15.5" y2="2" width="1.5" layer="21"/>
+<wire x1="15.5" y1="2" x2="15.5" y2="-2.5" width="1.5" layer="21"/>
+<wire x1="26.5" y1="3.5" x2="26.5" y2="2" width="1.5" layer="21"/>
+<wire x1="26.5" y1="2" x2="26.5" y2="-2.5" width="1.5" layer="21"/>
+<wire x1="15.5" y1="2" x2="26.5" y2="2" width="1.5" layer="21"/>
+<polygon width="0.5" layer="29">
+<vertex x="-25.5" y="3"/>
+<vertex x="-25.5" y="2.5" curve="90"/>
+<vertex x="-21.5" y="-1.5"/>
+<vertex x="-20.5" y="-1.5" curve="90"/>
+<vertex x="-16.5" y="2.5"/>
+<vertex x="-16.5" y="3"/>
+</polygon>
+<polygon width="0.5" layer="29">
+<vertex x="-11.5" y="3"/>
+<vertex x="-11.5" y="3.5" curve="-90"/>
+<vertex x="-7.5" y="7.5"/>
+<vertex x="-6.5" y="7.5" curve="-90"/>
+<vertex x="-2.5" y="3.5"/>
+<vertex x="-2.5" y="3"/>
+</polygon>
+<polygon width="0.5" layer="29">
+<vertex x="2.5" y="3"/>
+<vertex x="2.5" y="-1.5"/>
+<vertex x="7.5" y="-1.5" curve="90"/>
+<vertex x="11.5" y="2.5"/>
+<vertex x="11.5" y="3"/>
+</polygon>
+<polygon width="0.5" layer="29">
+<vertex x="16.5" y="3"/>
+<vertex x="16.5" y="3.5" curve="-90"/>
+<vertex x="20.5" y="7.5"/>
+<vertex x="21.5" y="7.5" curve="-90"/>
+<vertex x="25.5" y="3.5"/>
+<vertex x="25.5" y="3"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="UNDA_LOGO_2X" urn="urn:adsk.eagle:package:8161937/2" type="box" library_version="2">
+<description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
+<packageinstances>
+<packageinstance name="UNDA_LOGO_2X"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2142,6 +2220,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.5664" y="31.5" size="1.27" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="45" y="32.685" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
+<element name="U$1" library="parts-logo" library_urn="urn:adsk.eagle:library:8161933" package="UNDA_LOGO_2X" package3d_urn="urn:adsk.eagle:package:8161937/2" value="UNDA-LOGO-5X" x="40" y="19" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
