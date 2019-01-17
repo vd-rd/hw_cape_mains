@@ -663,7 +663,7 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="AMEOF3-JZ" urn="urn:adsk.eagle:package:7633104/2" type="box" library_version="4">
+<package3d name="AMEOF3-JZ" urn="urn:adsk.eagle:package:7633104/3" type="box" library_version="5">
 <packageinstances>
 <packageinstance name="AMEOF3-JZ"/>
 </packageinstances>
@@ -686,7 +686,7 @@ W = angled&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AMEOF3" urn="urn:adsk.eagle:component:7633108/1" prefix="CONV" uservalue="yes" library_version="4">
+<deviceset name="AMEOF3" urn="urn:adsk.eagle:component:7633108/2" prefix="CONV" uservalue="yes" library_version="5">
 <gates>
 <gate name="G$1" symbol="CONV-EXTRA" x="5.08" y="-2.54"/>
 </gates>
@@ -701,7 +701,7 @@ W = angled&lt;p&gt;
 <connect gate="G$1" pin="V-" pad="10"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7633104/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7633104/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5178,7 +5178,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="DLD" urn="urn:adsk.eagle:package:7633166/2" type="model" library_version="5">
+<package3d name="DLD" urn="urn:adsk.eagle:package:7633166/3" type="model" library_version="5" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DLD"/>
 </packageinstances>
@@ -5234,7 +5234,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DLD-" urn="urn:adsk.eagle:component:7633167/2" prefix="CMC" uservalue="yes" library_version="5">
+<deviceset name="DLD-" urn="urn:adsk.eagle:component:7633167/2" locally_modified="yes" prefix="CMC" uservalue="yes" library_version="5" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CHOKE" x="-2.54" y="-2.54"/>
 </gates>
@@ -5247,7 +5247,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7633166/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7633166/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5872,14 +5872,14 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <variant name="aimtec" populate="no"/>
 </part>
 <part name="CON2" library="parts-schurter" library_urn="urn:adsk.eagle:library:7633142" deviceset="4300.0101" device="" package3d_urn="urn:adsk.eagle:package:7633145/2"/>
-<part name="CONV2" library="parts-aimtec" library_urn="urn:adsk.eagle:library:7633096" deviceset="AMEOF3" device="12SJZ" package3d_urn="urn:adsk.eagle:package:7633104/2">
+<part name="CONV2" library="parts-aimtec" library_urn="urn:adsk.eagle:library:7633096" deviceset="AMEOF3" device="12SJZ" package3d_urn="urn:adsk.eagle:package:7633104/3">
 <variant name="meanwell" populate="no"/>
 </part>
 <part name="C1" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="CAP-POL-" device="5PX10WX16H" package3d_urn="urn:adsk.eagle:package:8154122/2" value="4.7uF">
 <attribute name="RATING" value="400Vac"/>
 <variant name="meanwell" populate="no"/>
 </part>
-<part name="CMC1" library="parts-ferrocore" library_urn="urn:adsk.eagle:library:7633163" deviceset="DLD-" device="302U-1A" package3d_urn="urn:adsk.eagle:package:7633166/2"/>
+<part name="CMC1" library="parts-ferrocore" library_urn="urn:adsk.eagle:library:7633163" deviceset="DLD-" device="302U-1A" package3d_urn="urn:adsk.eagle:package:7633166/3"/>
 <part name="F2" library="parts-profuse" library_urn="urn:adsk.eagle:library:7644690" deviceset="ZH8" device="" package3d_urn="urn:adsk.eagle:package:7644693/2"/>
 <part name="VAR1" library="parts-epcos" library_urn="urn:adsk.eagle:library:8148902" deviceset="S14K250" device="" package3d_urn="urn:adsk.eagle:package:8149370/2"/>
 <part name="C2" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="CAP-" device="P5W6H8T2.5" package3d_urn="urn:adsk.eagle:package:8154556/2" value="100nF">
@@ -6026,6 +6026,13 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <pinref part="SV1" gate="G$1" pin="3"/>
 <wire x1="55.88" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <label x="63.5" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SENSE_OUT" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="36"/>
+<wire x1="40.64" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
+<label x="22.86" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
