@@ -80,7 +80,7 @@
 <layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:X9o_gaevR0mmTd5c682hOQ" pcbguid="09c3e8ed-c86e-44dc-a2e4-995f3919ef7c" lastpulledtime="" lastsyncedchangeguid="08498241-25eb-84ee-6c51-32de18bef326"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:X9o_gaevR0mmTd5c682hOQ" pcbguid="09c3e8ed-c86e-44dc-a2e4-995f3919ef7c" lastpulledtime="" lastsyncedchangeguid="bac5a472-4b51-d8bc-00d3-b0ea6281fadc"/>
 <plain>
 <wire x1="3" y1="0" x2="77" y2="0" width="0" layer="20"/>
 <wire x1="80" y1="3" x2="80" y2="37" width="0" layer="20"/>
