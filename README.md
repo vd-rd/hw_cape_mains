@@ -2,9 +2,11 @@
  Isolated mains supply module designed to power IoT projects that have a <15W power requirement. It is designed around readily available step-down power modules with additional filtering to ensure compliance to standard specifications.
 
 ### Specifications
-Two versions of the board are available, depending on the choice of the module.
- * MeanWell IRM version
- * Aimtec AMEOF version
+
+Two versions of the board are available, depending on the choice of the module:
+ * MeanWell IRM 
+ * Aimtec AMEOF 
+
 In both cases the boards feature:
  * 85-240V input
  * 15W output at 12V
